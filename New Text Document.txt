@@ -1,0 +1,61 @@
+category tabel 
+==================
+id 
+parent_id
+name
+slug
+image 
+description
+status
+
+color table
+===========
+id 
+name 
+slug 
+status 
+
+
+size table 
+================
+id 
+name 
+slug 
+status
+
+product tabe 
+============
+id 
+title 
+slug
+sku 
+shot_description
+price 
+sale_price 
+description 
+add_info
+image
+
+category_product table
+=====================
+product_id 
+category_id
+
+
+
+product galler 
+===================
+id 
+product_id 
+image
+
+
+
+inventory table 
+===================
+id
+product_id
+color_id 
+size_id 
+quantity 
+additional_price
